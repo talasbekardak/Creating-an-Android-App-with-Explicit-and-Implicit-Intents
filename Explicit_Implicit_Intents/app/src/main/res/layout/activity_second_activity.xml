@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Hello! My name's Ardak.The name Ardak has several possible meanings and interpretations. One of them is related to nature and means sunlight or the radiance of the sun.This value reflects the bright and sunny nature of people with this name, who usually have an optimistic and energetic character.There is also another interpretation of the name Ardak, associated with belligerence and strength. In this context, the name can be interpreted as courageous warrior or strong fighter. This value reflects the characteristics of people named Ardak, who usually have a strong spirit and determination in achieving their goals.The history of the name Ardak goes back to ancient times, when the Turkic peoples inhabited the expanses of Central Asia. For centuries, this name has been passed down from generation to generation, preserving its significance and uniqueness. Today, this name remains popular and in demand in modern society, where it continues to symbolize strength, energy and optimism.The name Ardak is a perfect example of a combination of beauty and meaning. It not only sounds melodious and pleasant, but also carries a deep meaning and historical value. Due to its origin and meaning, this name becomes the choice for many parents who want to give their child a unique and special name.Thus, this name has a rich history and origin associated with the Turkic peoples of Central Asia. It symbolizes sunlight and power, reflecting the characteristics of people with that name. The name Ardak remains popular and in demand in modern society, preserving its uniqueness and significance"
+            android:textSize="20dp"
+            android:justificationMode="inter_word"/>
+
+    </ScrollView>
+</LinearLayout>
